@@ -41,6 +41,6 @@ dark:
     boldItalic: 3
 
   italicStyle:
-    commentStyle: 2
-    keywordStyle: 2
-    attributesStyle: 2
+    commentStyle: 0
+    keywordStyle: 0
+    attributesStyle: 0
