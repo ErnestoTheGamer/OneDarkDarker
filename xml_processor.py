@@ -3,7 +3,7 @@ import xml.etree.ElementTree as et
 
 if __name__ == '__main__':
     dark_xml = et.parse('./theme/jetbrains/resources/schemes/dark.xml')
-    template_xml = et.parse('./tepmlates/scheme.template.xml')
+    template_xml = et.parse('./templates/scheme.template.xml')
 
     dark_options = dark_xml.findall('//attributes/option')
     template_options = template_xml.findall('//attributes/option')
